@@ -1,7 +1,7 @@
 {
-  "name": "rh-js-methods",
-  "version": "1.0.2",
-  "description": "方法包",
+  "name": "rh-js-structures",
+  "version": "0.0.1",
+  "description": "数据结构包",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "unpkg": "/lib/",

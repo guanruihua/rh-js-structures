@@ -5,12 +5,12 @@ import { Comparator } from '../util'
  */
 export interface IHeap {
   heapContainer: any[]
-	compare: any
+  compare: any
 }
 
 export default class Heap implements IHeap {
   heapContainer: any[]
-	compare: any
+  compare: any
   constructor(comparatorFunction) {
     if (new.target === Heap) {
       throw new TypeError('Cannot construct Heap instance directly')

@@ -11,6 +11,7 @@
     "build": "npx rollup -c --extend rollup.config.ts",
     "lint-staged": "lint-staged",
     "dev": "ts-node-dev --respawn --transpile-only ./src/test/index.ts",
+    "dev:tree": "ts-node-dev --respawn --transpile-only ./src/tree/__test__/index.ts",
     "md": "ts-node-dev --respawn --transpile-only ./md.ts",
     "test": "jest",
     "test_index": "ts-node-dev --respawn --transpile-only ./src/test/index.test.ts",
